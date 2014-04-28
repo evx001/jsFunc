@@ -1,0 +1,17 @@
+// var theNumber = Number(prompt("Pick a number")); 
+// if (!isNaN(theNumber)) // note we asking in the negative.
+//        alert("Your number is the square root of " + (theNumber + theNumber)); 
+// 
+//       if(true == false) 
+//        print ("This is confusing"); 
+//        else 
+//       print("True still isn't false."); 
+
+var num = prompt("Piack a number:", "0");
+if (num <10) 
+    print ("too Small"); 
+    else if (num < 100) 
+       print("Medium");
+    else 
+        print ("Large");
+  
